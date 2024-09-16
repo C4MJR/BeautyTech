@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4DF9FBB8-4DC2-0AD5-2C78-A317C53BEBC4" name="BT_EMPRESA_PRODUTO">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-11 20:52:12 UTC</createdTime>
+<generatorID>BB6637E5-7821-2FFE-B7DA-86A5F6F07892</generatorID>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_EMPRESA_PRODUTO" id="609253CB-1CB2-1913-9EBF-420F40575DF4">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-11 20:52:12 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe o id empres produto e é chave primária da tabela.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe o id empres produto e é chave primária da tabela]]></commentInRDBMS>
+<generatorID>AA04C855-4527-377A-E2DA-7317FC76D1B6</generatorID>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_EMPRESA" id="9D491B46-ECFD-588C-2523-8699EF58688B">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-11 20:52:12 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe a chave primária da tabela empresa e é FK na tabela empresa produto.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe a chave primária da tabela empresa e é FK na tabela empresa produto.]]></commentInRDBMS>
+<generatorID>E041D2E0-DB12-82A7-C087-FD548724A426</generatorID>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4254AB8A-7992-63F7-21C0-8C72B0330FE1" referredColumn="3C9DFAF8-B90F-65B9-B4BC-C86EB0E92694"/>
+</associations>
+</Column>
+<Column name="ID_PRODUTO" id="7CF2815E-079E-8A75-A502-485CA8F98691">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-11 20:52:12 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe a chave primária da tabela produto e é FK na tabela empresa produto.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe a chave primária da tabela produto e é FK na tabela empresa produto.]]></commentInRDBMS>
+<generatorID>6BCE3D2F-F944-C760-FE4D-F8813C3E998B</generatorID>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7F1F98AA-FF90-7AC7-E242-0B8DE15A28FD" referredColumn="1AF52EE7-3DE3-FAB8-5CFB-62E0887F83DA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="00402176-CEA7-8751-8B89-FD7DFEF7DC4D" name="BT_EMPRESA_PRODUTO_PK">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-11 20:52:12 UTC</createdTime>
+<generatorID>4CEAD388-F9DF-A916-E16D-E4A2B770280A</generatorID>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="609253CB-1CB2-1913-9EBF-420F40575DF4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6FA81385-3D43-7FEB-50AC-24DB3CEBF763" name="BT_EMPRESA_PRODUTO_BT_EMPRESA_FK">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-11 20:52:13 UTC</createdTime>
+<generatorID>FD627EC8-DF39-FB09-F9BB-80DBA6E39CD2</generatorID>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D491B46-ECFD-588C-2523-8699EF58688B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9ED9558A-9EB8-40BE-536F-27D6ECDC93E5" name="BT_EMPRESA_PRODUTO_BT_PRODUTO_FK">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-11 20:52:13 UTC</createdTime>
+<generatorID>A007A0BA-A9A1-5B8C-63A8-4B299CEF80DB</generatorID>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7CF2815E-079E-8A75-A502-485CA8F98691"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_CAT_PROD_CAT" directorySegmentName="seg_0" id="56ECD23D-EBB7-F78F-5F07-70D489615DA8">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-10 00:07:45 UTC</createdTime>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<engineerTo>
+<item key="0571D743-ECC5-1188-7D69-2507CC5EB2BA" value="true"/>
+</engineerTo>
+<sourcePk>29957B81-FAD1-89E4-8BCA-95682B3B9AFC</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B46D7F2D-4B0E-307A-2E9A-D4C4B5A36738</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>37CDF780-50E8-A24B-8B77-C841958B4E55</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

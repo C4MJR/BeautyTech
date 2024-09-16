@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_CLIENTE_END_CLIENTE" directorySegmentName="seg_0" id="914174D2-D701-BF1D-565B-304C5AFC5C67">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-10 00:06:33 UTC</createdTime>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<engineerTo>
+<item key="0571D743-ECC5-1188-7D69-2507CC5EB2BA" value="true"/>
+</engineerTo>
+<sourcePk>D6327DCC-5B62-74E2-BE9B-5D437CC646FA</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AF173E93-E846-00A4-D9BC-16DFCE1705F1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CD3CF2BE-92F9-D2E7-9EDC-20AE43096F36</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

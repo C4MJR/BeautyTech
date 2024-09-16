@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B026BFC3-F10C-8F43-3B3A-1ACACE090502" name="BT_PRODUTO_CATEGORIA">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-11 20:52:12 UTC</createdTime>
+<generatorID>37CDF780-50E8-A24B-8B77-C841958B4E55</generatorID>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PRODUTO_CATEGORIA" id="16EB1E7C-2C31-B5FA-B301-BFBEFA34C6F9">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-11 20:52:12 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe o id produto categoria e é chave primária da tabela.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe o id produto categoria e é chave primária da tabela.]]></commentInRDBMS>
+<generatorID>C466A7B8-6463-EFB8-F3F0-9F6C636B7596</generatorID>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_CATEGORIA" id="8A7A5CD0-F757-E738-F017-3EEBA6C65EF8">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-11 20:52:12 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe a chave primária da tabela cateogoria e é FK na tabela produto categoria.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe a chave primária da tabela cateogoria e é FK na tabela produto categoria.]]></commentInRDBMS>
+<generatorID>71433AE3-8DAD-D82A-82B4-7D93D1AC6BED</generatorID>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ED374C3F-52EF-81BB-C669-604ECF4F1EBF" referredColumn="3B33C10F-40C0-A18D-A158-A256724F6E31"/>
+</associations>
+</Column>
+<Column name="ID_PRODUTO" id="E8DEF587-7749-9F23-9E33-6EADB0567D10">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-11 20:52:12 UTC</createdTime>
+<comment><![CDATA[Esse produto recebe a chave primária da tabela produto e é FK na tabela produto categoria.]]></comment>
+<commentInRDBMS><![CDATA[Esse produto recebe a chave primária da tabela produto e é FK na tabela produto categoria.]]></commentInRDBMS>
+<generatorID>B119EF97-8B4F-A962-9DE4-6E1FD8756507</generatorID>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D4E0431B-CA2B-574B-BE91-F2EB4A5F7D28" referredColumn="1AF52EE7-3DE3-FAB8-5CFB-62E0887F83DA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="830B5B0A-AE64-3E62-129F-00B49D74D44C" name="BT_PRODUTO_CATEGORIA_PK">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-11 20:52:12 UTC</createdTime>
+<generatorID>2B091F3C-C51C-12AB-CF44-3EA165FE3516</generatorID>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="16EB1E7C-2C31-B5FA-B301-BFBEFA34C6F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F83E100D-C321-F772-C736-730B07E582AC" name="BT_PRODUTO_CATEGORIA_BT_CATEGORIA_FK">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-11 20:52:12 UTC</createdTime>
+<generatorID>56ECD23D-EBB7-F78F-5F07-70D489615DA8</generatorID>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A7A5CD0-F757-E738-F017-3EEBA6C65EF8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C4332A18-C8AD-35AB-A4F1-6E90B9736CA2" name="BT_PRODUTO_CATEGORIA_BT_PRODUTO_FK">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-11 20:52:13 UTC</createdTime>
+<generatorID>8478A8A7-D460-113C-D90A-D24000AEF00E</generatorID>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8DEF587-7749-9F23-9E33-6EADB0567D10"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B59C833F-77FD-A91F-FC1D-AF0461B4881E" name="BT_PRODUTO">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-09 21:31:50 UTC</createdTime>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PRODUTO" id="1AF52EE7-3DE3-FAB8-5CFB-62E0887F83DA">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-09 22:32:45 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe o id do produto e é a chave primária da tabela]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe o id do produto e é a chave primária da tabela]]></commentInRDBMS>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_PRODUTO" id="F19EA02C-9796-C979-C5DC-5A2FD9B51BB1">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-09 23:03:46 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe o nome do produto e é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe o nome do produto e é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESC_PRODUTO" id="9F5214ED-81FF-963D-7A30-8442A54D2A7E">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-09 23:08:38 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe a descrição do produto e é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe a descrição do produto e é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VL_PRODUTO" id="35889C19-4D55-C1EC-EC17-565FA4371876">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-09 23:15:09 UTC</createdTime>
+<comment><![CDATA[Esse produto recebe o valor do produto e é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse produto recebe o valor do produto e é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_FAB_PRODUTO" id="61B9155E-8777-0482-5353-CDE729A1ECD5">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-09 23:15:38 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe a data de fabricação do produto e é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe a data de fabricação do produto e é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_VALIDADE" id="C43FC228-1943-E089-BBFD-1FDCE018417C">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-09 23:27:41 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe a data de validade do produto e é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe a data de validade do produto e é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_CADASTRO" id="FF7D7C3E-C6CC-CC57-49CC-257C2E3920D2">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-09 23:29:41 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe a data de cadastro do produto e é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe a data de cadastro do produto e é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IMG_PRODUTO" id="0C722281-1502-358C-1AFA-7BBC5D969B39">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-09 23:30:57 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe a imagem do produto e é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe a imagem do produto e é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A5E51B8C-0AB5-3DB6-C67F-F9B989AF6673" name="BT_PRODUTO_PK">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-09 22:32:45 UTC</createdTime>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1AF52EE7-3DE3-FAB8-5CFB-62E0887F83DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

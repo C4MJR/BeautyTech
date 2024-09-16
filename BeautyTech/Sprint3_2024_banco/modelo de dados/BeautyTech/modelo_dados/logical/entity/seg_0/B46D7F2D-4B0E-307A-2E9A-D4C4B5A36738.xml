@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B46D7F2D-4B0E-307A-2E9A-D4C4B5A36738" name="BT_CATEGORIA">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-09 23:51:38 UTC</createdTime>
+<generatorID>407ED1DE-E26A-63F3-4FD6-94899288DCA9</generatorID>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<engineerTo>
+<item key="0571D743-ECC5-1188-7D69-2507CC5EB2BA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_CATEGORIA" id="C89B49E4-2B45-EE1A-2E78-D54DB34EF482">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-09 23:51:38 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe o id da categoria e é a chave primária da tabela.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe o id da categoria e é a chave primária da tabela.]]></commentInRDBMS>
+<generatorID>3B33C10F-40C0-A18D-A158-A256724F6E31</generatorID>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<engineerTo>
+<item key="0571D743-ECC5-1188-7D69-2507CC5EB2BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_CATEGORIA" id="8F854300-B7B4-02D5-E7A4-B95897BA3F6C">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-09 23:51:38 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe o nome da categoria e é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe o nome da categoria e é obrigatório.]]></commentInRDBMS>
+<generatorID>9A83BB0F-BFDE-0CC7-8A1E-20CFEB25C4E1</generatorID>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<engineerTo>
+<item key="0571D743-ECC5-1188-7D69-2507CC5EB2BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESC_CATEGORIA" id="A188A58F-8CC1-8233-DD5E-E981C0B840AB">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-10 00:02:45 UTC</createdTime>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<engineerTo>
+<item key="0571D743-ECC5-1188-7D69-2507CC5EB2BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="29957B81-FAD1-89E4-8BCA-95682B3B9AFC" name="BT CATEGORIA PK">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-09 23:51:38 UTC</createdTime>
+<generatorID>EA4FE91D-ED98-6615-29B7-62E4A4F6F233</generatorID>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<engineerTo>
+<item key="0571D743-ECC5-1188-7D69-2507CC5EB2BA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C89B49E4-2B45-EE1A-2E78-D54DB34EF482</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

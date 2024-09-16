@@ -1,0 +1,177 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AF173E93-E846-00A4-D9BC-16DFCE1705F1" name="BT_CLIENTE">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-09 23:51:38 UTC</createdTime>
+<generatorID>DFFB71A0-40B5-B4FA-1CD0-42E02E46581F</generatorID>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<engineerTo>
+<item key="0571D743-ECC5-1188-7D69-2507CC5EB2BA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_CLIENTE" id="F11CAE37-53BF-88C9-4F68-6D80CAE2DD04">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-09 23:51:38 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe o código do cliente e é a chave primária da tabela.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe o código do cliente e é a chave primária da tabela.]]></commentInRDBMS>
+<generatorID>D2821CC8-55F5-2FEF-B3EE-E47CE2EBCFFC</generatorID>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<engineerTo>
+<item key="0571D743-ECC5-1188-7D69-2507CC5EB2BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID TELEFONE" id="8140DB2F-9F3A-7C04-7AF3-9475CA0BAC66">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-10 00:02:21 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe o id do telefone e é obrigatório.]]></comment>
+<generatorID>F139B319-B2BF-AF5D-6F8A-FA4E042818C0</generatorID>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<engineerTo>
+<item key="0571D743-ECC5-1188-7D69-2507CC5EB2BA" value="true"/>
+</engineerTo>
+<referedAttribute>963D7E49-97FD-56FB-2A06-D7DE62A6496E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CPF_CLIENTE" id="83A34CB3-1D43-D017-77EA-6CB2BF15AD07">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-09 23:51:38 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe o CPF d o cliente e é obrigatório]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe o CPF d o cliente e é obrigatório]]></commentInRDBMS>
+<generatorID>DC644B8F-11EE-3E4E-B01B-F940BF23C4FE</generatorID>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<engineerTo>
+<item key="0571D743-ECC5-1188-7D69-2507CC5EB2BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_CLIENTE" id="78A78B8C-6F87-5817-1FDB-90F991A16AA1">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-09 23:51:38 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe o nome do cliente e é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe o nome do cliente e é obrigatório.]]></commentInRDBMS>
+<generatorID>74311AED-C348-FD94-EADB-C7B915608EE2</generatorID>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<engineerTo>
+<item key="0571D743-ECC5-1188-7D69-2507CC5EB2BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMAIL_CLIENTE" id="0455C835-6302-7DE4-540C-E4C7333D129A">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-09 23:51:38 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe o e-mail do cliente e não é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe o e-mail do cliente e não é obrigatório.]]></commentInRDBMS>
+<generatorID>F3FB3C62-BD35-5ACD-206E-F311168A49F6</generatorID>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<engineerTo>
+<item key="0571D743-ECC5-1188-7D69-2507CC5EB2BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_NASCIMENTO_CLIENTE" id="E46B6AA0-09D6-6710-F146-ED72EA750CF6">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-09 23:51:38 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe a data de nascimento do cliente e é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe a data de nascimento do cliente e é obrigatório.]]></commentInRDBMS>
+<generatorID>3CA9E817-A3B5-174A-90AF-837A0E8F0C3E</generatorID>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<engineerTo>
+<item key="0571D743-ECC5-1188-7D69-2507CC5EB2BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ESTADO_CIVIL_CLIENTE" id="2E08C4F6-3FCF-B484-BB3C-00A6FD3B7E80">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-09 23:51:38 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe o estado civil do cliente e é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe o estado civil do cliente e é obrigatório.]]></commentInRDBMS>
+<generatorID>3FA79976-6BCA-448D-AF5C-1B8E335F83CF</generatorID>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<engineerTo>
+<item key="0571D743-ECC5-1188-7D69-2507CC5EB2BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_CADASTRO" id="66B007AA-A1A2-CF35-1413-1F9604C2B68A">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-09 23:51:38 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe a data em que o cliente foi cadastrado e é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe a data em que o cliente foi cadastrado e é obrigatório.]]></commentInRDBMS>
+<generatorID>B9F7B1C3-58DA-8C93-F321-4C96EDAB5C28</generatorID>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<engineerTo>
+<item key="0571D743-ECC5-1188-7D69-2507CC5EB2BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_GENERO" id="56C41AA5-0E7E-3733-CD78-2C7E8B2F9E8E">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-10 00:03:55 UTC</createdTime>
+<comment><![CDATA[Esse atributo será a chave primária da tabela de genero, sendo obrigatório]]></comment>
+<generatorID>BD3901A1-609C-E216-5E38-7B6269E95579</generatorID>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<engineerTo>
+<item key="0571D743-ECC5-1188-7D69-2507CC5EB2BA" value="true"/>
+</engineerTo>
+<referedAttribute>FEBB29F3-EBDC-1C74-FE6D-60496A12EDDD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D6327DCC-5B62-74E2-BE9B-5D437CC646FA" name="BT CLIENTE PK">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-09 23:51:38 UTC</createdTime>
+<generatorID>C77E773C-03E6-7F4F-1748-9DDC0372F548</generatorID>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<engineerTo>
+<item key="0571D743-ECC5-1188-7D69-2507CC5EB2BA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F11CAE37-53BF-88C9-4F68-6D80CAE2DD04</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

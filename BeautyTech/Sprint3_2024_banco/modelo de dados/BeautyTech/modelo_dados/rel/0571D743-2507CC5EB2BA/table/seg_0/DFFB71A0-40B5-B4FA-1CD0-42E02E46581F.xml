@@ -1,0 +1,185 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DFFB71A0-40B5-B4FA-1CD0-42E02E46581F" name="BT_CLIENTE">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-09 21:10:25 UTC</createdTime>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CLIENTE" id="D2821CC8-55F5-2FEF-B3EE-E47CE2EBCFFC">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-09 21:12:07 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe o código do cliente e é a chave primária da tabela.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe o código do cliente e é a chave primária da tabela.]]></commentInRDBMS>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_TELEFONE" id="315E108D-C54B-C874-A767-257A394CF629">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-11 20:52:12 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe a chave primária da tabela telefone e é FK na tabela cliente]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe a chave primária da tabela telefone e é FK na tabela cliente]]></commentInRDBMS>
+<generatorID>8140DB2F-9F3A-7C04-7AF3-9475CA0BAC66</generatorID>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A906475E-3538-E026-B6CF-1DE307F6055E" referredColumn="4B68CE36-733D-62F2-54DA-3F3641C638CC"/>
+</associations>
+</Column>
+<Column name="ID_GENERO" id="247711E8-1D03-8373-6A3B-E6A25E04C3E9">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-11 20:52:12 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe a chave primária da tabela id_genero e é FK na tabela cliente.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe a chave primária da tabela id_genero e é FK na tabela cliente.]]></commentInRDBMS>
+<generatorID>56C41AA5-0E7E-3733-CD78-2C7E8B2F9E8E</generatorID>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="250C0C3A-1EDB-5B20-7696-2E581CE4A9C8" referredColumn="D3841146-BE12-14E1-4E67-45D09F1C5A4D"/>
+</associations>
+</Column>
+<Column name="CPF_CLIENTE" id="DC644B8F-11EE-3E4E-B01B-F940BF23C4FE">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-09 21:13:11 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe o CPF d o cliente e é obrigatório]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe o CPF d o cliente e é obrigatório]]></commentInRDBMS>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_CLIENTE" id="74311AED-C348-FD94-EADB-C7B915608EE2">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-09 21:14:20 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe o nome do cliente e é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe o nome do cliente e é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL_CLIENTE" id="F3FB3C62-BD35-5ACD-206E-F311168A49F6">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-09 21:21:51 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe o e-mail do cliente e não é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe o e-mail do cliente e não é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_NASCIMENTO_CLIENTE" id="3CA9E817-A3B5-174A-90AF-837A0E8F0C3E">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-09 21:24:42 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe a data de nascimento do cliente e é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe a data de nascimento do cliente e é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO_CIVIL_CLIENTE" id="3FA79976-6BCA-448D-AF5C-1B8E335F83CF">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-09 21:30:22 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe o estado civil do cliente e é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe o estado civil do cliente e é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_CADASTRO" id="B9F7B1C3-58DA-8C93-F321-4C96EDAB5C28">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-09 21:27:35 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe a data em que o cliente foi cadastrado e é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe a data em que o cliente foi cadastrado e é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_EXCLUSAO" id="0227CB62-CCAD-5A09-8F0A-0DE58F5BFE22">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-09 21:28:51 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe a data de exclusão do cliente e não é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe a data de exclusão do cliente e não é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C77E773C-03E6-7F4F-1748-9DDC0372F548" name="BT_CLIENTE_PK">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-09 21:12:07 UTC</createdTime>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2821CC8-55F5-2FEF-B3EE-E47CE2EBCFFC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="370692D6-A551-C815-CD07-1101307931CF" name="BT_CLIENTE_BT_GENERO_FK">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-11 20:52:13 UTC</createdTime>
+<generatorID>BD3901A1-609C-E216-5E38-7B6269E95579</generatorID>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="247711E8-1D03-8373-6A3B-E6A25E04C3E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AB728CD3-72C5-3FC1-B27D-5011FBD3FD59" name="BT_CLIENTE_BT_TELEFONE_FK">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-11 20:52:13 UTC</createdTime>
+<generatorID>F139B319-B2BF-AF5D-6F8A-FA4E042818C0</generatorID>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="315E108D-C54B-C874-A767-257A394CF629"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

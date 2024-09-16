@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="407ED1DE-E26A-63F3-4FD6-94899288DCA9" name="BT_CATEGORIA">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-09 22:22:02 UTC</createdTime>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CATEGORIA" id="3B33C10F-40C0-A18D-A158-A256724F6E31">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-09 23:32:28 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe o id da categoria e é a chave primária da tabela.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe o id da categoria e é a chave primária da tabela.]]></commentInRDBMS>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_CATEGORIA" id="9A83BB0F-BFDE-0CC7-8A1E-20CFEB25C4E1">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-09 23:33:19 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe o nome da categoria e é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe o nome da categoria e é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESC_CATEGORIA" id="BD5EEA55-70B9-7FBB-4436-FF6BC7004DFC">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-11 20:52:12 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe a descrição da categoria e é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe a descrição da categoria e é obrigatório.]]></commentInRDBMS>
+<generatorID>A188A58F-8CC1-8233-DD5E-E981C0B840AB</generatorID>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EA4FE91D-ED98-6615-29B7-62E4A4F6F233" name="BT_CATEGORIA_PK">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-09 23:32:28 UTC</createdTime>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B33C10F-40C0-A18D-A158-A256724F6E31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

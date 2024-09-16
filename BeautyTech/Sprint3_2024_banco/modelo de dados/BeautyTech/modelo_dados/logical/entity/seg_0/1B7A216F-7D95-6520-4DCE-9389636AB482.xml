@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1B7A216F-7D95-6520-4DCE-9389636AB482" name="BT_TELEFONE">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-09 23:51:38 UTC</createdTime>
+<generatorID>63BA132C-3C46-3761-D883-5C3EC4BA8A2D</generatorID>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<engineerTo>
+<item key="0571D743-ECC5-1188-7D69-2507CC5EB2BA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID TELEFONE" id="963D7E49-97FD-56FB-2A06-D7DE62A6496E">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-09 23:51:38 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe o id do telefone e é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe o id do telefone e é obrigatório.]]></commentInRDBMS>
+<generatorID>4B68CE36-733D-62F2-54DA-3F3641C638CC</generatorID>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<engineerTo>
+<item key="0571D743-ECC5-1188-7D69-2507CC5EB2BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DDI_TELEFONE" id="7BDE5331-3AB9-80D3-71AF-3E371A79191D">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-09 23:51:38 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe o DDI do telefone e é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe o DDI do telefone e é obrigatório.]]></commentInRDBMS>
+<generatorID>9E757C43-423D-A60C-8D27-F3E495783594</generatorID>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<engineerTo>
+<item key="0571D743-ECC5-1188-7D69-2507CC5EB2BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DDD_TELEFONE" id="3DB21369-4F27-B05D-41D8-7A0289E283D2">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-09 23:51:38 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe o DDD do telefone e é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe o DDD do telefone e é obrigatório.]]></commentInRDBMS>
+<generatorID>AA9C60B8-D224-2A6B-01AB-5587C899A035</generatorID>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<engineerTo>
+<item key="0571D743-ECC5-1188-7D69-2507CC5EB2BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR TELEFONE" id="C2886AFC-F993-2822-FF29-EB190FB5C8F3">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-09 23:51:38 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe o número do telefone e é obrigatório]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe o número do telefone e é obrigatório]]></commentInRDBMS>
+<generatorID>CE39E958-BE1F-4C85-B5B8-141148647D24</generatorID>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<engineerTo>
+<item key="0571D743-ECC5-1188-7D69-2507CC5EB2BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5E2322A2-3DC2-5D1A-1D1C-DB244C44D6F9" name="BT TELEFONE PK">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-09 23:51:38 UTC</createdTime>
+<generatorID>06E19EBA-16AC-3D9D-1E0E-A97C286209FD</generatorID>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<engineerTo>
+<item key="0571D743-ECC5-1188-7D69-2507CC5EB2BA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>963D7E49-97FD-56FB-2A06-D7DE62A6496E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

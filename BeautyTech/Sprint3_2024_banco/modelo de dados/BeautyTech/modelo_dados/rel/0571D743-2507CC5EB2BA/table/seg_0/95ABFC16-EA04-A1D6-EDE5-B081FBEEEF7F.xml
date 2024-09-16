@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="95ABFC16-EA04-A1D6-EDE5-B081FBEEEF7F" name="BT_ENDERECO_CLIENTE">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-11 20:52:12 UTC</createdTime>
+<generatorID>CD3CF2BE-92F9-D2E7-9EDC-20AE43096F36</generatorID>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ENDERECO_CLIENTE" id="4C915984-5DE6-6120-FBC4-1AF6E20197E1">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-11 20:52:12 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe o id endereco e cliente e é a chave primária da tabela.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe o id endereco e cliente e é a chave primária da tabela.]]></commentInRDBMS>
+<generatorID>11236213-D4AB-BBCE-FDFA-B0F46AEAB271</generatorID>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_ENDERECO" id="31D85DE1-CFC1-D9B3-D74A-CC2655D8C95B">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-11 20:52:12 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe a chave primária da tabela endereço e é FK na tabela endereço cliente.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe a chave primária da tabela endereço e é FK na tabela endereço cliente.]]></commentInRDBMS>
+<generatorID>8ADB13BC-893F-88E5-6C7C-0B1DE9FC5DFE</generatorID>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2CEF1CBF-C230-06FB-8946-F35CFCDE4D67" referredColumn="577B2CA0-33D1-6883-68EF-192DC4712A4B"/>
+</associations>
+</Column>
+<Column name="ID_CLIENTE" id="78412684-327C-2A17-F0DD-DC6AC7984F84">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-11 20:52:12 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe a o id cliente, é chave primária na tabela cliente e é FK na tabela endereço cliente.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe a o id cliente, é chave primária na tabela cliente e é FK na tabela endereço cliente.]]></commentInRDBMS>
+<generatorID>CD56EE83-14C3-02C1-2DF9-4518BCE624E4</generatorID>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D907C719-5887-3B18-B823-6800B1ADF300" referredColumn="D2821CC8-55F5-2FEF-B3EE-E47CE2EBCFFC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3D4304DD-FD88-30E3-8DDC-2C2F689E7053" name="BT_ENDERECO_CLIENTE_PK">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-11 20:52:12 UTC</createdTime>
+<generatorID>D6D9A47A-98AF-0BBF-6283-0121D347B87D</generatorID>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C915984-5DE6-6120-FBC4-1AF6E20197E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FD03E4B8-225D-8D31-BEB7-1F66C94AE5D0" name="BT_ENDERECO_CLIENTE_BT_CLIENTE_FK">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-11 20:52:13 UTC</createdTime>
+<generatorID>914174D2-D701-BF1D-565B-304C5AFC5C67</generatorID>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="78412684-327C-2A17-F0DD-DC6AC7984F84"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AC8AACBA-E99D-AFD4-5A16-AB7481C88F9B" name="BT_ENDERECO_CLIENTE_BT_ENDERECO_FK">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-11 20:52:13 UTC</createdTime>
+<generatorID>700E9290-E37F-B497-3B3A-82D70032AC4B</generatorID>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31D85DE1-CFC1-D9B3-D74A-CC2655D8C95B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

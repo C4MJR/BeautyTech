@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_PROD_EMP_PROD" directorySegmentName="seg_0" id="A007A0BA-A9A1-5B8C-63A8-4B299CEF80DB">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-10 00:33:25 UTC</createdTime>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<engineerTo>
+<item key="0571D743-ECC5-1188-7D69-2507CC5EB2BA" value="true"/>
+</engineerTo>
+<sourcePk>480F63EB-B8D6-4B0F-3407-2FAEB734BD95</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B0000D4E-251F-F3F9-BA98-B51783C16CFE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BB6637E5-7821-2FFE-B7DA-86A5F6F07892</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

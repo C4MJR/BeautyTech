@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="63BA132C-3C46-3761-D883-5C3EC4BA8A2D" name="BT_TELEFONE">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-09 21:32:17 UTC</createdTime>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TELEFONE" id="4B68CE36-733D-62F2-54DA-3F3641C638CC">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-09 22:23:59 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe o id telefone e é chave primária da tabela.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe o id telefone e é chave primária da tabela.]]></commentInRDBMS>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DDI_TELEFONE" id="9E757C43-423D-A60C-8D27-F3E495783594">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-09 22:26:41 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe o DDI do telefone e é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe o DDI do telefone e é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DDD_TELEFONE" id="AA9C60B8-D224-2A6B-01AB-5587C899A035">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-09 22:28:06 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe o DDD do telefone e é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe o DDD do telefone e é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_TELEFONE" id="CE39E958-BE1F-4C85-B5B8-141148647D24">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-09 22:29:05 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe o número do telefone e é obrigatório]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo recebe o número do telefone e é obrigatório]]></commentInRDBMS>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="06E19EBA-16AC-3D9D-1E0E-A97C286209FD" name="BT_TELEFONE_PK">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-09 22:23:59 UTC</createdTime>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B68CE36-733D-62F2-54DA-3F3641C638CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

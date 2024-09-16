@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_TELEFONE_CLIENTE" directorySegmentName="seg_0" id="F139B319-B2BF-AF5D-6F8A-FA4E042818C0">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-10 00:02:21 UTC</createdTime>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<engineerTo>
+<item key="0571D743-ECC5-1188-7D69-2507CC5EB2BA" value="true"/>
+</engineerTo>
+<sourcePk>5E2322A2-3DC2-5D1A-1D1C-DB244C44D6F9</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1B7A216F-7D95-6520-4DCE-9389636AB482</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AF173E93-E846-00A4-D9BC-16DFCE1705F1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

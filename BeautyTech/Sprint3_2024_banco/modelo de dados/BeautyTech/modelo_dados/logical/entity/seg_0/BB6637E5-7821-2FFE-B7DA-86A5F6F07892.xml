@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BB6637E5-7821-2FFE-B7DA-86A5F6F07892" name="BT_EMPRESA_PRODUTO">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-10 00:31:03 UTC</createdTime>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<engineerTo>
+<item key="0571D743-ECC5-1188-7D69-2507CC5EB2BA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_EMPRESA_PRODUTO" id="AA04C855-4527-377A-E2DA-7317FC76D1B6">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-10 00:31:22 UTC</createdTime>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<engineerTo>
+<item key="0571D743-ECC5-1188-7D69-2507CC5EB2BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_EMPRESA" id="E041D2E0-DB12-82A7-C087-FD548724A426">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-10 00:32:57 UTC</createdTime>
+<generatorID>FD627EC8-DF39-FB09-F9BB-80DBA6E39CD2</generatorID>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<engineerTo>
+<item key="0571D743-ECC5-1188-7D69-2507CC5EB2BA" value="true"/>
+</engineerTo>
+<referedAttribute>692E93CF-09D9-2AFC-3F8A-A35216BDA629</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_PRODUTO" id="6BCE3D2F-F944-C760-FE4D-F8813C3E998B">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-10 00:33:25 UTC</createdTime>
+<comment><![CDATA[Esse atributo recebe o id do produto e é a chave primária da tabela]]></comment>
+<generatorID>A007A0BA-A9A1-5B8C-63A8-4B299CEF80DB</generatorID>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<engineerTo>
+<item key="0571D743-ECC5-1188-7D69-2507CC5EB2BA" value="true"/>
+</engineerTo>
+<referedAttribute>0F7B8B40-08B4-06DD-1DDB-790635E43E49</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4CEAD388-F9DF-A916-E16D-E4A2B770280A" name="BT_EMPRESA_PRODUTO PK">
+<createdBy>vitor</createdBy>
+<createdTime>2024-04-10 00:31:35 UTC</createdTime>
+<ownerDesignName>modelo_dados</ownerDesignName>
+<engineerTo>
+<item key="0571D743-ECC5-1188-7D69-2507CC5EB2BA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AA04C855-4527-377A-E2DA-7317FC76D1B6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
